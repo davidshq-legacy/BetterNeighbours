@@ -1,0 +1,97 @@
+<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>BetterNeighbours.Com - A Resource for Exchanging Items.</title>
+    <meta name="keywords" content="free stuff, recycling, free exchange" />
+    <meta name="description" content="Give or receive free stuff and help the environment while you are doing so." />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <!-- google_ad_section_start(weight=ignore) -->
+    <div>
+        <div style="z-index: 101; left: 11px; width: 800px; position: absolute; top: 5px;
+            height: 108px; text-align: center;">
+            &nbsp;
+            <div style="z-index: 101; left: 1px; width: 169px; position: absolute; top: 0px;
+                height: 78px">
+                <asp:LoginView ID="LoginView1" runat="server">
+                    <AnonymousTemplate>
+                <asp:Login ID="Login1" runat="server" BackColor="#F7F6F3" BorderColor="#E6E2D8" BorderPadding="2"
+                    BorderStyle="None" BorderWidth="0px" Font-Names="Verdana" Font-Size="0.7em"
+                    ForeColor="#333333">
+                    <TitleTextStyle BackColor="#5D7B9D" Font-Bold="True" Font-Size="0.8em" ForeColor="White" />
+                    <InstructionTextStyle Font-Italic="True" ForeColor="Black" />
+                    <TextBoxStyle Font-Size="0.8em" />
+                    <LoginButtonStyle BackColor="#FFFBFF" BorderColor="#CCCCCC" BorderStyle="Solid" BorderWidth="1px"
+                        Font-Names="Verdana" Font-Size="0.8em" ForeColor="#284775" />
+                </asp:Login>
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        <asp:LoginStatus ID="LoginStatus1" runat="server" />
+                    </LoggedInTemplate>
+                </asp:LoginView>
+            </div>
+            <div style="z-index: 102; left: 225px; width: 100px; position: absolute; top: 5px;
+                height: 100px; text-align: center;" id="DIV1">
+            <img src="betterneighbors.png" alt="Free Stuff Exchange with an Environmental Twist." /><br />
+            </div>
+            <br />
+        </div>
+        <div style="z-index: 104; left: 830px; width: 100px; position: absolute; top: 122px;
+            height: 100px">
+            <script type="text/javascript"><!--
+google_ad_client = "pub-3283693448922541";
+google_ad_width = 120;
+google_ad_height = 600;
+google_ad_format = "120x600_as";
+google_ad_type = "text";
+//2006-09-27: BetterNeighbors
+google_ad_channel ="2644734200";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+        </div>
+        <div style="z-index: 103; left: 25px; width: 149px; position: absolute; top: 416px;
+            height: 100px">
+            <!-- google_ad_section_end -->
+            <script type="text/javascript"><!--
+google_ad_client = "pub-3283693448922541";
+google_ad_width = 125;
+google_ad_height = 125;
+google_ad_format = "125x125_as_rimg";
+google_cpa_choice = "CAAQmOKI_AEaCJuKqam3AQz_KOjKrIMB";
+//--></script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+        </div>
+        <br />
+        &nbsp;
+        <div style="z-index: 102; left: 207px; width: 605px; position: absolute; top: 121px;
+            height: 100px">
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+            <div style="z-index: 101; left: -187px; width: 157px; position: absolute; top: 31px;
+                height: 230px">
+                &nbsp;<asp:Label ID="Label1" runat="server"></asp:Label>
+                <asp:Menu ID="Menu1" runat="server" BackColor="#E3EAEB" DataSourceID="SiteMapDataSource1"
+                    DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#666666"
+                    StaticSubMenuIndent="10px" Width="146px" MaximumDynamicDisplayLevels="1" StaticDisplayLevels="4">
+                    <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <DynamicHoverStyle BackColor="#666666" ForeColor="White" />
+                    <DynamicMenuStyle BackColor="#E3EAEB" />
+                    <StaticSelectedStyle BackColor="#1C5E55" />
+                    <DynamicSelectedStyle BackColor="#1C5E55" />
+                    <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <StaticHoverStyle BackColor="#666666" ForeColor="White" />
+                </asp:Menu>
+            </div>
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+        </div>
+    </div>
+    </form>
+</body>
+</html>

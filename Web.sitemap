@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode>
+    <siteMapNode url="default.aspx" title="Home"  description="The main page." />
+    <siteMapNode url="ShippableItems.aspx" title="Shippable Items" description="Items that people are willing to ship." />
+    <siteMapNode url="Wanted.aspx" title="Wanted Items" description="Items that people are looking for." />
+    <siteMapNode url="additem.aspx" title="Add Item"  description="Add an item you want to give away." />
+    <siteMapNode url="register.aspx" title="Register"  description="Register for a free account." />
+		<siteMapNode url="MyAccount.aspx" title="My Account" description="View the details of your account." >
+			<siteMapNode url="MyOffered.aspx" title="My Offers" description ="See the status of your offered items." />
+			<siteMapNode url="MyRequests.aspx" title="My Requests" description="See the status of your requested items." />
+			<siteMapNode url="LeaveFeedback.aspx" title="Leave Feedback" description="Leave feedback about an exchange." />
+		</siteMapNode>
+    <siteMapNode url="help.aspx" title="Help!" description="Find out how Better Neighbors works.">
+      <siteMapNode url="/help/rules.aspx" title="Rules" description="Rules of using the site."/>
+      <siteMapNode url="/help/safety.aspx" title="Safety" description="Suggestions on how to exchange safely." />
+      <siteMapNode url="whatsnew.aspx" title="What's New?" description="A revision history of Better Neighbors." />
+    </siteMapNode>
+    <siteMapNode url="ContactUs.aspx" title="Contact Us." description="Contact us with your questions or comments."/>
+	</siteMapNode>
+	
+</siteMap>
